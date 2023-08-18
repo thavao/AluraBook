@@ -1,0 +1,20 @@
+.card__descricao{
+    display: flex;
+}
+.descricao__titulo{
+    color: var(--cor-titulos);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.produto__nome{
+    color: var(--azul-nomes);
+    font-size: 1.12rem;
+    font-weight: 700;
+    padding: ;
+}
+
+.descricao__texto{
+    color: var(--texto-descricao);
+    font-size: .8rem;
+    font-weight: 400;
+}
