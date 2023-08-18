@@ -6,3 +6,14 @@
   text-align: center;
   padding: 1em;
 }
+.swiper-slide img {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+.swiper-pagination {
+  position: initial;
+  padding: .5em;
+}

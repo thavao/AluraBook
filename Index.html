@@ -72,8 +72,39 @@
       <input
         type="search"
         class="banner__pesquisa"
-        placeholder="Qual será sua próxima leitura?"
-      />
+        placeholder="Qual será sua próxima leitura?"/>
     </section>
+    <section class="carrossel">
+      <h1 class="carrossel__titulo">Últimos lançamentos</h1>
+
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./Assets/Javascript.svg" alt="Livro sobre Javascript"></div>
+          <div class="swiper-slide"><img src="./Assets/Portugol.svg" alt="Livro sobre Portugol"></div>
+          <div class="swiper-slide"><img src="./Assets/Lideranca.svg" alt="Livro sobre Lideranca"></div>
+          <div class="swiper-slide"><img src="./Assets/Guia Front-end.svg" alt="Livro sobre Lideranca"></div>
+          <div class="swiper-slide"><img src="./Assets/Arquitetura.svg" alt="Livro sobre Lideranca"></div>
+          <div class="swiper-slide"><img src="./Assets/MetricasAgeis.svg" alt="Livro sobre Lideranca"></div>
+          <div class="swiper-slide"><img src="./Assets/Acessibilidade.svg" alt="Livro sobre Lideranca"></div>
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+      
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });
+    </script>
   </body>
 </html>
