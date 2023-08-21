@@ -81,12 +81,12 @@
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="./Assets/Javascript.svg" alt="Livro sobre Javascript"></div>
-          <div class="swiper-slide"><img src="./Assets/Portugol.svg" alt="Livro sobre Portugol"></div>
-          <div class="swiper-slide"><img src="./Assets/Lideranca.svg" alt="Livro sobre Lideranca"></div>
-          <div class="swiper-slide"><img src="./Assets/Guia Front-end.svg" alt="Livro sobre Lideranca"></div>
-          <div class="swiper-slide"><img src="./Assets/Arquitetura.svg" alt="Livro sobre Lideranca"></div>
-          <div class="swiper-slide"><img src="./Assets/MetricasAgeis.svg" alt="Livro sobre Lideranca"></div>
-          <div class="swiper-slide"><img src="./Assets/Acessibilidade.svg" alt="Livro sobre Lideranca"></div>
+          <div class="swiper-slide"><img src="./Assets/MEAN.svg" alt="Livro sobre Portugol"></div>
+          <div class="swiper-slide"><img src="./Assets/Angular.svg" alt="Livro sobre Angular 11 e Firebase"></div>
+          <div class="swiper-slide"><img src="./Assets/Guia Front-end.svg" alt="Livro sobre Guia de Front-End"></div>
+          <div class="swiper-slide"><img src="./Assets/Arquitetura.svg" alt="Livro sobre Arquitetura de software distribuido"></div>
+          <div class="swiper-slide"><img src="./Assets/MetricasAgeis.svg" alt="Livro sobre metricas ageis"></div>
+          <div class="swiper-slide"><img src="./Assets/Acessibilidade.svg" alt="Livro sobre Acessibilidade na web"></div>
         </div>
         
         <div class="swiper-button-prev"></div>
@@ -94,18 +94,7 @@
 
       </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        spaceBetween: 10,
-        slidesPerView: 3,
-      
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
-      });
-    </script>
+   
     <section class="card">
       <div class="card__descricao">
         <div class="descricao">
@@ -113,14 +102,91 @@
           <h2 class="produto__nome">Angular 11 e Firebase</h2>
           <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
         </div>
-          <img src="./Assets/Angular.svg" alt="Logo do Angular">
+          <img class="card__imagem" src="./Assets/angularlogo.svg" alt="Logo do Angular">
       </div>
-      <div class="card__botoes"></div>
-      <ul>
-        <li><img src="./Assets/Favoritos.svg" alt="favoritar produto"></li>
-        <li><img src="./Assets/Compras.svg" alt=""></li>
-      </ul>
-      <a href="">Saiba mais</a>
+
+      <div class="card__botoes">
+        <ul class="lista-botoes">
+          <li class="lista-botoes-item"><img src="./Assets/Favoritos.svg" alt="favoritar produto"></li>
+          <li class="lista-botoes-item"><img src="./Assets/Compras.svg" alt=""></li>
+        </ul>
+        <a class="card__link" href="">Saiba mais</a>
+    </div>
     </section>
+
+    <section class="carrossel">
+      <h1 class="carrossel__titulo">MAIS VENDIDOS</h1>
+
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./Assets/Javascript.svg" alt="Livro sobre Javascript"></div>
+          <div class="swiper-slide"><img src="./Assets/ReactNative.svg" alt="Livro sobre react ReactNative"></div>
+          <div class="swiper-slide"><img src="./Assets/Tuning.svg" alt="Livro sobre Tuning de sql"></div>
+          <div class="swiper-slide"><img src="./Assets/Guia Front-end.svg" alt="Livro sobre Guia de Front-End"></div>
+          <div class="swiper-slide"><img src="./Assets/Arquitetura.svg" alt="Livro sobre Arquitetura de software distribuido"></div>
+          <div class="swiper-slide"><img src="./Assets/MetricasAgeis.svg" alt="Livro sobre metricas ageis"></div>
+          <div class="swiper-slide"><img src="./Assets/Acessibilidade.svg" alt="Livro sobre Acessibilidade na web"></div>
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </section>
+   
+    <section class="card">
+      <div class="card__descricao">
+        <div class="descricao">
+        <img src="/Assets/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+        <h3 class="descricao__titulo">Autora do Mês</h3>
+          <h2 class="produto__nome">Juliana Agarikov</h2>
+          <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+        </div>
+          <img class="card__imagem" src="./Assets/Escritora.svg" alt="Logo do Angular">
+      </div>
+
+      <div class="card__botoes">
+        <ul class="lista-botoes">
+          <li class="lista-botoes-item"><img src="./Assets/Favoritos.svg" alt="favoritar produto"></li>
+          <li class="lista-botoes-item"><img src="./Assets/Compras.svg" alt=""></li>
+        </ul>
+        <a class="card__link" href="">Saiba mais</a>
+    </div>
+    </section>
+    <section class="topicos">
+      <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+      <ul class="topicos__lista">
+      <li class="topicos__item"><a class="topicos__link" href="">Marketing Digital</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">Android</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">Agile</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">Startups</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">HTML & CSS</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">Python</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">OO</a></li>
+      <li class="topicos__item"><a class="topicos__link" href="">Java</a></li>
+    </ul>
+    </section>
+    <footer class="rodape">
+      <h2 class="rodape__titulo">Fique por dentro das novidades!</h2>
+      <p class="rodape__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <input
+        type="search"
+        class="rodape__email"
+        placeholder="Cadastre seu e-mail"/>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper(".swiper", {
+          spaceBetween: 10,
+          slidesPerView: 3,
+        
+          pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+          },
+        });
+      </script>
   </body>
 </html>

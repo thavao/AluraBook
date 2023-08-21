@@ -6,6 +6,9 @@
   text-align: center;
   padding: 1em;
 }
+.swiper{
+  margin: 2%;
+}
 .swiper-slide img {
   width: 100%;
 }
