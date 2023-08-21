@@ -1,4 +1,9 @@
-.rodape__titulo{
-    font-size: 0.88rem;
-    font-weight: 500;
+.rodape{
+  background-color: var(--cor-de-fundo);
+  padding: 5%;
+  border-top: solid 1px #858585;
+}
+.rodape__titulo {
+  font-size: 1rem;
+  color: var(--preto);
 }
