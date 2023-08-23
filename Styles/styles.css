@@ -5,6 +5,7 @@
 @import url("../Styles/header.css");
 @import url("../Styles/banner.css");
 @import url("../Styles/carrossel.css");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap");
 :root {
   --cor-de-fundo: #ebecee;
@@ -15,6 +16,7 @@
   --cor-descricao: rgba(0, 0, 0, 0.85);
   --azul-degrade: linear-gradient(160deg, #002f52 0%, #326589 100%);
   --fonte-principal: "Poppins";
+  --fonte-secundaria: "Josefin Sans";
 }
 
 body {
@@ -22,4 +24,10 @@ body {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+  .display__celular{
+    display: none;
+  }  
 }
