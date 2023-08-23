@@ -5,7 +5,7 @@
 
 .contato__titulo,
 .contato__texto {
-  background: var(--azul-degrade);
+  background: var(--azul-nomes);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -29,7 +29,27 @@
   background: url("../Assets/Email.svg") no-repeat;
   background-position: 1%;
   font-family: var(--fonte-principal);
-  padding-left: 7%;
+  padding-left: 2em;
   font-size: 1.12rem;
   color: var(--azul-nomes);
+}
+
+@media screen and (min-width: 1024px) {
+  .contato{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .contato__titulo{
+    font-size: 1.5rem;
+  }
+  .contato__email{
+    width: 30%;
+    border-radius: 50px;
+    padding: 1%;
+  }
+  .contato__descricao{
+    margin-right: 3%;
+    width: 30%;
+  }
 }

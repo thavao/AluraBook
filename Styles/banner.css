@@ -30,3 +30,25 @@
   font-size: 0.8rem;
   color: var(--branco);
 }
+@media screen and (min-width: 1024px){
+  .banner__pesquisa{
+    width: 50%;
+  }
+  .container__banner{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__titulo {
+    font-size: 2.25rem;
+  }
+  .banner__pesquisa{
+    padding: 1rem;
+  }
+  .banner__pesquisa::placeholder{
+    font-size: 1rem;
+  }
+}

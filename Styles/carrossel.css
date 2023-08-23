@@ -5,6 +5,7 @@
   font-weight: 700;
   text-align: center;
   padding: 1em;
+  text-transform: uppercase;
 }
 .swiper{
   margin: 2%;
@@ -19,4 +20,45 @@
 .swiper-pagination {
   position: initial;
   padding: .5em;
+}
+
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo{
+    font-size: 1.62rem;
+    padding-top: 5%;
+  }
+  .swiper-pagination{
+    margin-bottom: 4rem;
+  }
+  .swiper-button-prev,
+.swiper-button-next {
+  display: block;
+  color: transparent;
+  top: 60%
+}
+.swiper{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.swiper-button-prev::before{
+  content:"<";
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--azul-degrade);
+  border-radius: 50%;
+  padding: 20% 40%;
+}
+
+.swiper-button-next::before{
+  content:">";
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--azul-degrade);
+  border-radius: 50%;
+  padding: 20% 40%;
+}
+
 }

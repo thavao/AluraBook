@@ -1,7 +1,7 @@
 .topicos{
     background: var(--azul-degrade);
     padding: 3%;
-    
+    text-align: center;
 }
 
 .topicos__titulo{
@@ -19,11 +19,21 @@
 .topicos__item{
     padding: 3%;
     background-color: var(--cor-titulos);
-    margin: 3% 0.5rem;
+    margin: 1rem 1rem;
 }
 .topicos__link{
     text-decoration: none;
     color: var(--branco);
     font-weight: 700;
     font-size: 0.87rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo{
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .topicos__link{
+        font-size: 1.5rem;
+    }
 }
