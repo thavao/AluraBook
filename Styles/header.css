@@ -63,6 +63,10 @@
   display: none;
 }
 
+.container__link{
+  display: none;
+}
+
 @media screen and (min-width: 1024px){
 .display__celular{
   display: none;
@@ -107,4 +111,23 @@
 .logo{
   margin: 8px;
 }
+}
+
+@media screen and (min-width: 1728px) {
+  .container__link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--preto);
+    margin-right: 4rem;
+   }
+   .container__imagem{
+    margin: 0 1rem 0 3rem;
+  }
+  .cabecalho{
+    padding: 0.5%;
+  }
+  .opcoes{
+    margin: 0 auto 0 2%;
+  }
 }
